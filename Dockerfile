@@ -1,6 +1,6 @@
 FROM xiaobailong/sbt:0.13.8
 
-ENV PATH ${PATH}:${JAVA_HOME}/bin
+ENV PATH ${JAVA_HOME}/bin:${PATH}
 
 RUN apt-get update && \
     apt-get install -y --force-yes -q dialog curl sudo lsof vim axel telnet && \
