@@ -1,4 +1,4 @@
-FROM xiaobailong/oracle-java:java8
+FROM xiaobailong/sbt:0.13.8
 
 ENV PATH=$PATH:$JAVA_HOME/bin
 
